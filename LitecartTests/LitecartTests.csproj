@@ -62,12 +62,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PageObjects\CommonControls.cs" />
+    <Compile Include="PageObjects\Header.cs" />
+    <Compile Include="PageObjects\MainPage.cs" />
     <Compile Include="PageObjects\PageObjectBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\TestBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Configuration\" />
-    <Folder Include="Tests\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
